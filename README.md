@@ -11,6 +11,6 @@ Execute following commands to deploy Prometheus
 3. kubectl apply -f prometheus-roles.yml
 4. kubectl apply -f prometheus-deployment.yaml
 5. kubectl apply -f prometheus-nodeservice.yaml
-
+6. kubectl apply -f grafana.yaml
 
 Currently the prometheus-config is scraping the set of spaceinvaders metrics at 8080.
